@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black">
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- logo -->
+            <div class="logo">
+                <span>FM</span><br>
+                <span>Barber</span>
+            </div>
+            <div class="nav-right">
+                <!-- home+about -->
+                <ul class="menu">
+                    <li>
+                        <a href="#" class="hover:text-white transition">หน้าหลัก</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-white transition">ผลงาน</a>
+                    </li>
+                </ul>
+                <p class="text-white text-2xl">|</p>
+                <!-- Profile + Logout + Notification -->
+                <div class="divider">
+                    
+                    <!-- Profile -->
+                    <img src="" class="profile"/>
+                    
+                    <!-- Logout -->
+                        <button class="logout">
+                            ออกจากระบบ
+                        </button>
+                  
+                    <!-- Notification -->
+                    <div class="notification">
+                        <a href="" class="material-icons">notifications</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="m-8 grid md:grid-cols-3 gap-10">
+        <div class="md:col-span-2 space-y-10 m-8">
+            <div>
+                <h1 class="text-3xl font-semibold mb-3 text-white">ยินดีต้อนรับ</h1>
+                <p class="text-gray-400 text-sm text-gray-400">
+                    ดูแลทรงผมและภาพลักษณ์ของคุณอย่างมืออาชีพ
+                </p>
+            </div>
+
+            <div>
+                <h2 class=" mb-4 flex items-center gap-2">
+                    <span class="text-yellow-400 text-xs"><span class="material-icons">content_cut</span></span>
+                    <span class="text-white text-2xl">บริการของเรา</span>
+                </h2>
+            
+                <div class="bg-gray-800/60 backdrop-blur rounded-2xl p-8 w-full md:w-[400px] bg-gray-800">
+                    <h3 class="text-2xl font-medium mb-2 text-white">ตัดผม</h3>
+                    <span><span class="text-yellow-400 text-xs"><span class="material-icons">content_cut</span></span>
+                    <span class="text-gray-400 text-sm">
+                        ตัดผมตามความต้องการ เด็ก 80 ธรรมดา 100 แฟชั่น 120
+                    </span>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-lg font-medium mb-4">การจอง</h2>
+                <div>
+                    <div class="bg-gray-300 rounded-2xl p-8  w-full md:w-[400px]">
+                        <p class="text-white text-2xl">
+                            คุณไม่มีคิวในตอนนี้...
+                        </p>
+                        <br><br>
+                        <button class="float-right bg-gray-700 text-yellow-400 text-xs px-4 py-2 rounded-full hover:bg-gray-800 font-medium transition">
+                            BOOK NOW !!
+                            <span class="text-xs"><span class="material-icons">book</span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div>
+            <div class="bg-gray-300 text-black rounded-2xl p-6 h-[200px]">
+                <h3 class="text-sm font-medium text-yellow-600 mb-2">● นโยบายการจอง</h3>
+            </div>
+        </div>
+        <div>
+            <a class="material-icons" >info</a>
+            <a>นโยบายการจอง</a>
+            <a>กรุณาแจ้งเลื่อนหรือยกเลิกนัดหมายล่วงหน้าอย่างน้อย 24 ชั่วโมง เพื่อหลีกเลี่ยงค่าธรรมเนียมการยกเลิกล่าช้า</a>
+        </div>
+        <div>
+            <a href="">ที่อยู่ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, sint quas quisquam aliquam fugit vero repellat iure nihil explicabo ea?</a>
+        </div>
+    </div>
+</body>
+</html>
